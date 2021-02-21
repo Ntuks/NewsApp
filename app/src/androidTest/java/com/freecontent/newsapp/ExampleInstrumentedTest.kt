@@ -1,4 +1,4 @@
-package com.androiddevs.mvvmnewsapp
+package com.freecontent.newsapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.androiddevs.mvvmnewsapp", appContext.packageName)
+        assertEquals("com.freecontent.newsapp", appContext.packageName)
     }
 }
